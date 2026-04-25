@@ -1,27 +1,20 @@
+# --- Neovim Plugin State ---
+lazy-lock.json
 
-# --- Plugin Managers State ---
-# Lazy.nvim lockfile (keep this if you want reproducible builds)
-# !lazy-lock.json
+# --- Git Metadata ---
+.git/
 
-# Packer.nvim compiled file (Legacy)
-plugin/packer_compiled.lua
-
-# --- Temporary & Swap Files ---
+# --- Swaps & Temp ---
 *.swp
 *.swo
 *.swn
-*.sw?
 *~
+.*.swp
 
-# --- Personal/Local Configs ---
-# Ignore files meant for local machine only
-lua/custom/local.lua
-.netrwhist
-
-# --- Undo and Session data ---
-# (Only if you store these inside the config folder)
-undo/
-sessions/
-
-# --- Logs & Cache ---
+# --- Logs ---
 *.log
+lazy.nvim.log
+mason.log
+
+# --- Local Machine Only ---
+.netrwhist
